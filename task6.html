@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            background-color: rgb(41, 40, 40);
+            padding: 20px;
+            
+        }
+        
+        .header a {
+            font-size: 20px;
+            color: white;
+           text-decoration: none;
+            padding: 20px;
+           float: right;
+       }
+        a:hover {
+            background-color: blue;
+            transition: 0.6s;
+        }
+        .bread {
+            width: 100%;
+            height: 88vh;
+            position: relative;
+        }
+        .overpicture  {
+            color: white;
+            font-family:serif;
+            font-size: 30px;
+            position: absolute;
+            top: 200px;
+            left: 400px;
+        }
+         .button2 {
+            display: inline;
+            border: 1px solid white;
+            position: absolute;
+            top: 200px;
+            left: 250px;
+           
+        }
+        .button1 {
+            display: inline;
+            background-color: rgb(39, 39, 1);
+            border: 1px solid rgb(39,39,1);
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+        #word {
+            font-size: 20px;
+            position: relative;
+            right:150px;
+            top: 50px;
+        }
+        .mainword {
+            text-align: center;
+            padding: 20px;
+        }
+        img[class*=picture]{
+            width:330px;
+            height: 300px;
+            border-radius: 10%;
+            margin-left: 50px;
+            display: inline-block;
+            padding:0 20px;
+        }
+    
+        p[class*=word] {
+            display: inline-block;
+            text-align: center;
+            width: 30%;
+            margin-left: 40px;
+            line-height: 200%;
+            
+        }
+         .threeword h3{
+            display: inline-block;
+            text-align: center;
+            width: 30%;
+            margin-left: 40px;
+
+            
+        } 
+        .restaurant {
+            width: 500px;
+            height:300px;
+            border-radius: 20px;
+           float: right;
+           margin-right: 50px;
+            position: absolute;
+
+        }
+       .section h2{
+            position: relative;
+            padding:  80px 300px 20px;
+
+        }
+        .section p{
+          position: relative;
+          padding: 10px 500px 20px 100px;
+          
+            
+        }
+        .section img {
+            height: 450px;
+            width: 450px;
+            border-radius: 5%;
+           position: absolute;
+           right: 50px;
+           top: 1450px;
+           
+        }
+        .icon i {
+            margin-left: 60px;
+            font-size: 20px;
+            display: block;
+            padding: 30px;
+        }
+        .icon p {
+            font-size: 20px;
+            position: relative;
+            bottom: 300px;
+            margin:20px 25px;
+        }
+        .footer {
+            color: white;
+            background-color: rgb(59, 55, 55);
+            padding: 30px 0;
+            position: absolute;
+            top: 2000px;
+        }
+        .footer1{
+            color: white;
+            width: 30%;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        
+        .footer2{
+           text-align: center;
+           margin: 0 500px;
+           position: absolute;
+           top: 60px;
+           
+        }
+        .footer3 h3 {
+            position: absolute;
+            right: 200px;
+            top: 60px;
+        }
+        .footer3 p {
+            position: absolute;
+            right: 200px;
+            top: 100px;
+            z-index: -1;
+        }
+       .son img{
+        width: 150px;
+        height: 200px;
+        background-color: rgb(39, 37, 37);
+        color: white;
+        
+       }
+       .son {
+       height: 400px;
+       background-color: grey;
+       
+       }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="bakery-light-1.png" alt="Bakery" width="170px" height="40px" >
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Gallery</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+    </div>
+    <div class="main">
+        <!-- mainle css yazdiqda niye olmur -->
+        <img src="drew-coffman-1872.jpg" alt="bread" class="bread" >
+    </div>
+    <div class="overpicture">
+        <h1>Family Bakery</h1>
+        <p id="word">We're the biggest,best equipped and most advanced Bakery int the greater Los Angela area.</p>
+        <div class="button">
+        <p class="button1">learn more</p>
+        <p class="button2">contact us</p>
+        </div>
+    </div>
+    <div class="mainword">
+    <h1>Our Baking</h1> <br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id doloribus ipsa assumenda sed nisi?</p>
+    </div>
+    
+    <div class="threepicture">
+        <img class="picture1" src="ben-garratt-134774-600x500.jpg" alt="bread">
+        <img class ="picture2" src="stas-ovsky-123540-600x500.jpg" alt="bulka">
+        <img class="picture3" src="clem-onojeghuo-206832-600x500.jpg" alt="sirniyyat">
+    </div>
+    <div class="threeword">
+        <h3>Superior Breads</h3>
+        <p class="word1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatum exercitationem, facilis quod, magnam, et dolor facere sed corrupti totam id amet. Totam magnam et eligendi similique sunt dolores voluptatum.</p>
+        <h3>Bagels</h3>
+        <p class="word2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos expedita molestias sequi corporis labore atque. Quas, nemo. Dolores dignissimos magnam enim minus facilis, rerum accusantium id non! Saepe, rerum debitis.</p>
+        <h3>Cookies</h3>
+        <p class="word3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos vero consequatur quibusdam dolor voluptas ipsam aspernatur optio assumenda ea, earum at nisi tempore deserunt quis nam culpa reiciendis error eum?</p>
+       
+    </div>
+    
+
+    <div class="section">
+        <h2>Contact Information</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae doloremque neque impedit, cumque nobis iure voluptatem consequatur! Ipsa, et.</p>
+        <p>Our contact details:</p>
+        <img src="full-2-800x640.jpg" alt="restaurant">
+        <div class="icon">
+        <i class=" fa-solid fa-headphones-simple"></i>
+        <i class="fa-solid fa-phone-flip"></i>
+        <i class="fa-solid fa-headphones-simple"></i>
+        <i class="fa-solid fa-headphones-simple"></i>
+        <p>Manchester St 123-78 B,Random 713, UK</p>
+        <p>+46 123 456 789</p>
+        <p>+37 431 456 789</p>
+        <p>hello@sitename.com</p>
+        </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer1">
+        <h3>Contact Us</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, natus, similique commodi voluptatum nulla sapiente eveniet architecto debitis ut vel delectus ipsam deleniti nisi obcaecati dolor blanditiis reprehenderit excepturi vero odit at id nam tempora maxime molestias? Obcaecati soluta, eum laborum ratione nemo voluptatem eaque, quisquam beatae ab optio enim? Aliquam vitae quasi molestiae. Rem harum dolorem est ex explicabo, magnam illum quae molestias ipsum modi fugit, omnis architecto aliquam optio alias ut laborum accusamus consequuntur iure assumenda odio, quaerat quo inventore! Voluptatibus incidunt consequuntur temporibus repellat blanditiis omnis eum exercitationem expedita, voluptatem vero dignissimos odio vitae ipsum sit est?</p>
+    </div>
+    <div class="footer2">
+        <h3>Opening hours</h3>
+        <p>>Monday 10AM-9PM</p> <hr> 
+        <p>>Tuesday 10AM-9PM</p> <hr>
+        <p>>Wednesday 10AM-9PM</p> <hr>
+        <p>>Thursday 10AM-10PM</p> <hr>
+        <p>>Friday  10AM-10PM</p><hr>
+        <p>>Weekends  10AM-11PM</p><hr>
+
+    </div>
+    <div class="footer3">
+        <h3>Contact Details</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus.</p>
+        <p>46 123 456 789</p>
+    </div>
+  </div>
+
+  <div class="son">
+    <img src="bakery-light-1.png" alt="bakery">
+    <p>Copyright 2023.All Rights reserved</p>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./master academy_files/senior.az_title_icon.svg">
+    <link rel="stylesheet" href="task8.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: lightseagreen;
+}
+.senior {
+    width: 70px;
+    height: 90px;
+}
+.container {
+    background-color: rgb(34, 34, 34);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.content {
+    text-align: center;
+}
+.main img {
+     width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 15px;
+  
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 850px;
+    padding: 30px;
+    height: 90vh;
+}
+div[class*=center] {
+   border: 1px solid black;
+   border-radius: 5%;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   background-color: aliceblue;
+   margin: 5px;
+}
+div[class*=center]:hover{
+    transform: scale(1.2);
+}
+
+h3[class*=yazi] {
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="senior" src="senior.jpg" alt="senior">
+        <p class="footerp">Senior.az</p>
+        <p class="">Sign Up</p>
+     </div>
+    <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, earum.</p>
+    <div class="main">
+        <div class="html center">
+        <h3 class="htmlh yazi">Html</h3>
+        <img  class="html "src="html.png" alt="html">
+        </div>
+        
+        <div class="css center">
+        <h3 class="cssh yazi">Css</h3>
+        <img  class="css" src="css.png" alt="css">
+        </div>
+        <div class="js center">
+        <h3 class="jsh yazi ">Javascript</h3>
+     
+        <img class="js " src="javascript.png" alt="javascript">
+        </div>
+        <div class="react center">
+        
+        <h3 class="reacth yazi">React</h3>
+        <img class="react" src="react.png" alt="react">
+        </div>
+        <div class="rtl center">
+        
+        <h3 class="rtlh yazi">RTL</h3>
+        <img  class="rtl" src="RTL.jpg" alt="RTL">
+        </div>
+        <div class="redux center">
+        <h3 class="reduxh yazi">Redux</h3>
+        <img class="redux" src="redux.png" alt="redux">
+        </div>
+    </div>
+</body>
+</html>

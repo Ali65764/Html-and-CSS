@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(52, 52, 202);
+    display: flex;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    font-family:sans-serif ;
+}
+.header h1{
+    margin-left: 40px;
+}
+.nav  {
+    list-style: none;
+    display: flex;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px;
+}
+.nav a:hover {
+    background-color: black;
+    transition: 1.0s;
+}
+.building {
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+}
+.work {
+    width: 280px;
+    height: 150px;
+    position: absolute;
+    top: 330px;
+    left: 500px;
+
+
+}
+.senior {
+    color: black;
+    font-size: 60px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 230px;
+    left: 500px;
+}
+.article {
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around; 
+     align-items: center;
+}
+.hisse {
+    width: 300px;
+}
+
+.raindrop {
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+.section{
+    background-color: black;
+    display: flex;
+    height: 500px;
+}
+.left{
+    color: white;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.right{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(52, 133, 160);
+    width: 300px;
+    height: 150px;
+    background-color: antiquewhite;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.section2 {
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+     text-align: center;
+    justify-content: center; 
+}
+.yazi {
+    background-color: rgb(195, 243, 227);
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.yazi:hover {
+    transform: scale(1.3);
+}
+.h1class{
+    text-align: center;
+    background-color: aqua;
+    padding-top: 30px;
+}
+.yazi h2{
+    color: blue;
+    padding: 10px;
+}
+.star {
+    display: flex;
+    height: 300px;
+    background-color: rgb(49, 49, 172);
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+}
+.bolme{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.bolme:hover{
+    transform: scale(1.3);
+}
+.bolme img {
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.bolme p {
+    color: white;
+    padding: 10px;
+}
+.bolme i{
+    color: lightblue;
+}
+.form{
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form h1 {
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.textarea {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.text {
+    margin-top: 15px;
+}
+button {
+    width: 385px;
+    height: 30px;
+    color: white;
+    background-color: rgb(74, 74, 201);
+}
+button:hover {
+    color: black;
+}
+.footer{
+    background-color: rgb(74,74 ,201);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h3 {
+    color: red;
+}
+.footer p {
+    color: white;
+    margin-right: 10px;
+}
+

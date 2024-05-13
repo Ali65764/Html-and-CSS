@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+             margin: 0; 
+            padding: 0; 
+            height: 1000px;
+        }
+        .sticky{
+            background-color: grey;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        img{
+            width: 400px;
+            height: 300px;
+            border-radius: 5%;
+            position: relative;
+            top: 100px;
+            left: 120px;
+            z-index: -1;
+        }
+        h2{
+           text-align: center;
+           position: absolute;
+           right: 250px;
+           top: 200px;
+           z-index: -1;
+
+        }
+        .word {
+            text-align: center;
+            position: absolute;
+            left: 600px;
+            right: 150px;
+            top: 250px;
+           z-index: -1;
+        }
+        .footer {
+            text-align: center;
+            background-color: rgb(177, 177, 177);
+            position: static;
+            margin-top: 125px;
+            padding: 40px;
+        }
+        .fword {
+            padding:10px 100px;
+        }
+        
+
+    
+    </style>
+</head>
+<body>
+    <h1 class="sticky">Sticky/Fixed Section</h1>
+    <!-- dive class ver sonra relative ver ,h2 absolute ver imgye gore yerlesdir -->
+    <div>
+    <img src="komputer.jpg" alt="komputer">
+    <h2>Position Relative and Absolute</h2>
+    <p class="word">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illum culpa reprehenderit asperiores, cupiditate qui voluptas voluptatum aliquam animi harum nihil corporis doloremque consequuntur molestias accusamus, atque ad odit sunt obcaecati, neque in distinctio. Saepe explicabo velit quae eius dolore voluptatem doloribus labore vel ex placeat aut consequatur est laboriosam temporibus voluptatum, reiciendis quis mollitia earum! Corporis, dolores sit quae molestiae consequatur reiciendis corrupti odit ratione ipsam laboriosam maxime debitis.</p>
+    </div>
+    <div class="footer">
+        <h3>Static position</h3>
+        <p class="fword">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam assumenda quo, fugit sequi quas aliquam reiciendis veritatis vero illum quis in placeat minima rerum repudiandae reprehenderit suscipit quibusdam repellendus dolorem facilis cupiditate iste. Nisi eos in nobis optio iusto architecto quos, expedita fugit blanditiis consequatur perspiciatis. Blanditiis veniam perferendis molestias commodi quae obcaecati amet. Voluptas odit et sed explicabo similique sequi ducimus quaerat ab ipsum iusto, voluptate maiores. Ut consequatur, accusantium ad in iusto, eum et maxime quod ex vero facere aliquam incidunt nemo! Fugit voluptatem quidem unde expedita modi eveniet tenetur, exercitationem consequatur laborum alias tempora et eaque sed.</p>
+
+    </div>
+</body>
+</html>

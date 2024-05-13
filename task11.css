@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.section{
+    background-color: rgb(87, 87, 218);
+    height: 75px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.main h1{
+    font-size: 50px;
+    padding: 40px;
+    margin-left: 100px;
+}
+.border{
+    width: 900px;
+    height: 3px;
+    margin-left: 135px;
+    background-color: blue;
+}
+.main2{
+    padding: 40px;
+    margin-left: 100px;
+    display: flex; 
+}
+.yazi{
+    margin-top: -250px;
+}
+.main2yazi{
+    margin-top: 30px;
+    width: 40%;
+    margin-left: 140px;
+}
+.main2 h1{
+    font-size: 40px;
+}
+.main2 img{
+    border-radius: 15px;
+}
+.sekil1{
+    margin-left: 500px;
+    width: 100px;
+}
+.sekil2{
+    margin-left: 30px;
+    height: 150px;
+}
+.border2{
+    width: 900px;
+    height: 3px;
+    margin-left: 130px;
+    margin-top: 40px;
+    background-color: blue;
+}
+.article h1{
+    padding: 40px;
+    font-size: 40px;
+    margin-left: 90px;
+}
+.article{
+    max-width: 960px;
+   margin: 0 auto; 
+}
+
+.part1{
+    display: flex;
+   align-items: flex-end;
+}
+.borderpurple{
+    border-top: 8px solid pink;
+}
+.borderpink{
+    border-top: 8px solid red;
+}
+.borderblue{
+    border-top: 8PX solid lightgreen;
+
+}
+.picture h1{
+  color: grey;
+  padding: 40px;
+}
+.picture{
+    margin: 10px;
+}
+img{
+    max-width: 100%;
+}
+.part1 img{
+    margin-top: 70px;
+    border-radius: 15px;
+}
+.part1 h1{
+    margin-left: 0px;
+}
+.price{
+    height: 600px;
+    max-width: 960px;
+    margin: 70px auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.value{
+    background-color:rgb(219,217,217) ;
+}
+.qiymet h1{
+    text-align: center;
+    padding: 15px;
+}
+.qiymet {
+    border: 2px solid grey;
+    padding: 40px;
+   
+}
+.qiymet .company {
+    border: 3px solid black;
+    padding: 15px;
+    margin-top: 25px;
+}
+.price1{
+   margin-top: 100px;
+}
+.price2{
+    margin-top: 50px;
+}
+.price3{
+    margin-top: 0px;
+}
+.borderprice{
+    border: 2px solid white;
+    margin: 8px;
+}
+.word{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.paraqraf{
+   padding: 50px;
+   width: 30%;
+   color: rgb(102, 102, 102);
+}
+.paraqraf .first::before{
+    content: '';
+    border: 2px solid purple;
+    margin-right: 10px;
+}
+.paraqraf .second::before{
+    content: '';
+    border: 2px solid red;
+    margin-right: 10px;
+}
+.paraqraf .third::before{
+    content: '';
+    border: 2px solid blue;
+    margin-right: 10px;
+}
+.paraqraf p{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(184, 178, 178);
+}
+.hisse{
+    width: 20%;
+    color: rgb(63, 62, 62);
+    padding: 30px;
+
+}
+#email {
+    padding: 15px;
+}
+button{
+    background-color: blue;
+    padding: 15px;
+    color: white;
+  
+}
+.hisse2{
+    border: 3px solid blue;
+}
+.footer2{
+    background-color: rgb(0, 161, 214);
+}
+.footer2 h1{
+    padding: 20px;
+    color: white;
+    text-align:center;
+}
+.footer2 i{
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    top: 2685px;
+    color: white;
+}
+
+
+
+
+
+
+   
+
+

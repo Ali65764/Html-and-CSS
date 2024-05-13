@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+.header-bg, .footer-bg{
+    font-family: 'Space Grotesk', sans-serif;
+    background:linear-gradient(to right , #5600c7, #e311ff);
+}
+.profile-img{
+   margin-top: -40%;
+}
